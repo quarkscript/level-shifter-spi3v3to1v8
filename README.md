@@ -2,4 +2,4 @@
 Based on TXS0108E.
 Prototype was tested with CH341A flasher and W25Q32DWSIG spi flash
 
-https://github.com/quarkscript/level-shifter-spi3v3to1v8/blob/master/fig1.png
+![fig. 1](https://github.com/quarkscript/level-shifter-spi3v3to1v8/blob/master/fig1.png)
