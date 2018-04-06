@@ -1,0 +1,498 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:level_shifter-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 25LC_EEPROM U1
+U 1 1 5AAC5049
+P 7600 6250
+F 0 "U1" H 7300 6500 50  0000 L CNN
+F 1 "25LC_EEPROM" H 7650 6500 50  0000 L CNN
+F 2 "Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm" H 7250 6200 50  0001 C CNN
+F 3 "" H 7250 6200 50  0001 C CNN
+	1    7600 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 1V8_IN1
+U 1 1 5AAC5061
+P 6600 5450
+F 0 "1V8_IN1" H 6600 5550 50  0000 C CNN
+F 1 "F2" H 6600 5350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6600 5450 50  0001 C CNN
+F 3 "" H 6600 5450 50  0001 C CNN
+	1    6600 5450
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 1V8_IN2
+U 1 1 5AAC5067
+P 6600 5700
+F 0 "1V8_IN2" H 6600 5800 50  0000 C CNN
+F 1 "F2" H 6600 5600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6600 5700 50  0001 C CNN
+F 3 "" H 6600 5700 50  0001 C CNN
+	1    6600 5700
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 1V8_IN3
+U 1 1 5AAC506D
+P 6600 6000
+F 0 "1V8_IN3" H 6600 6100 50  0000 C CNN
+F 1 "Conn_01x01" H 6600 5900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6600 6000 50  0001 C CNN
+F 3 "" H 6600 6000 50  0001 C CNN
+	1    6600 6000
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 1V8_IN4
+U 1 1 5AAC5073
+P 6600 6250
+F 0 "1V8_IN4" H 6600 6350 50  0000 C CNN
+F 1 "F2" H 6600 6150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6600 6250 50  0001 C CNN
+F 3 "" H 6600 6250 50  0001 C CNN
+	1    6600 6250
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 1V8_IN5
+U 1 1 5AAC5079
+P 6600 6550
+F 0 "1V8_IN5" H 6600 6650 50  0000 C CNN
+F 1 "F2" H 6600 6450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6600 6550 50  0001 C CNN
+F 3 "" H 6600 6550 50  0001 C CNN
+	1    6600 6550
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 1V8_IN6
+U 1 1 5AAC507F
+P 6600 6800
+F 0 "1V8_IN6" H 6600 6900 50  0000 C CNN
+F 1 "F2" H 6600 6700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6600 6800 50  0001 C CNN
+F 3 "" H 6600 6800 50  0001 C CNN
+	1    6600 6800
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 1V8_IN7
+U 1 1 5AAC5085
+P 6600 7050
+F 0 "1V8_IN7" H 6600 7150 50  0000 C CNN
+F 1 "F2" H 6600 6950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6600 7050 50  0001 C CNN
+F 3 "" H 6600 7050 50  0001 C CNN
+	1    6600 7050
+	1    0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 1V8_IN8
+U 1 1 5AAC508B
+P 6600 7300
+F 0 "1V8_IN8" H 6600 7400 50  0000 C CNN
+F 1 "F2" H 6600 7200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 6600 7300 50  0001 C CNN
+F 3 "" H 6600 7300 50  0001 C CNN
+	1    6600 7300
+	1    0    0    1   
+$EndComp
+$Comp
+L LD1117S18TR_SOT223 U2
+U 1 1 5AB93D6E
+P 7400 2950
+F 0 "U2" H 7250 3075 50  0000 C CNN
+F 1 "LD1117S18TR_SOT223" H 7400 3075 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 7400 3150 50  0001 C CNN
+F 3 "" H 7500 2700 50  0001 C CNN
+	1    7400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5ABA6A89
+P 8200 3150
+F 0 "C4" H 8225 3250 50  0000 L CNN
+F 1 "104" H 8225 3050 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 8238 3000 50  0001 C CNN
+F 3 "" H 8200 3150 50  0001 C CNN
+	1    8200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C3
+U 1 1 5ABA6B36
+P 7900 3150
+F 0 "C3" H 7925 3250 50  0000 L CNN
+F 1 "10uF" H 7925 3050 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 7938 3000 50  0001 C CNN
+F 3 "" H 7900 3150 50  0001 C CNN
+	1    7900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5ABA76C2
+P 6350 3150
+F 0 "C1" H 6375 3250 50  0000 L CNN
+F 1 "104" H 6375 3050 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 6388 3000 50  0001 C CNN
+F 3 "" H 6350 3150 50  0001 C CNN
+	1    6350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 5ABAF60A
+P 6650 3150
+F 0 "C2" H 6675 3250 50  0000 L CNN
+F 1 "10uF" H 6675 3050 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 6688 3000 50  0001 C CNN
+F 3 "" H 6650 3150 50  0001 C CNN
+	1    6650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x10_Female DIP20_2_right1
+U 1 1 5ABEAD68
+P 8200 4400
+F 0 "DIP20_2_right1" H 8200 4900 50  0000 C CNN
+F 1 "connector_to_TXS0108E_3V3" H 8200 3800 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5105_10x2.54mm_Straight" H 8200 4400 50  0001 C CNN
+F 3 "" H 8200 4400 50  0001 C CNN
+	1    8200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x10_Female DIP20_1_left1
+U 1 1 5ABEBD6D
+P 6700 4450
+F 0 "DIP20_1_left1" H 6700 4950 50  0000 C CNN
+F 1 "connector_to_TXS0108E_1V8" H 6700 3850 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5105_10x2.54mm_Straight" H 6700 4450 50  0001 C CNN
+F 3 "" H 6700 4450 50  0001 C CNN
+	1    6700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x04_Counter_Clockwise DIP8
+U 1 1 5ABEBE9C
+P 9400 4350
+F 0 "DIP8" H 9450 4550 50  0000 C CNN
+F 1 "connector_to_programmer" H 9450 4050 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 9400 4350 50  0001 C CNN
+F 3 "" H 9400 4350 50  0001 C CNN
+	1    9400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Small JP0
+U 1 1 5ABF88A2
+P 6350 4950
+F 0 "JP0" H 6350 5030 50  0000 C CNN
+F 1 "nc" H 6360 4890 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6350 4950 50  0001 C CNN
+F 3 "" H 6350 4950 50  0001 C CNN
+	1    6350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5ABFAAF9
+P 8300 5950
+F 0 "C6" H 8325 6050 50  0000 L CNN
+F 1 "104" H 8325 5850 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm" H 8338 5800 50  0001 C CNN
+F 3 "" H 8300 5950 50  0001 C CNN
+	1    8300 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3000 7900 2950
+Connection ~ 7900 2950
+Wire Wire Line
+	8200 2300 8200 3000
+Connection ~ 8200 2950
+Wire Wire Line
+	8200 3400 8200 3300
+Wire Wire Line
+	6350 3400 8200 3400
+Connection ~ 7400 3400
+Wire Wire Line
+	7900 3300 7900 3400
+Connection ~ 7900 3400
+Wire Wire Line
+	7600 5950 7600 5800
+Wire Wire Line
+	7200 5800 8600 5800
+Wire Wire Line
+	8600 5800 8600 7500
+Wire Wire Line
+	8600 7500 6150 7500
+Wire Wire Line
+	6150 7500 6150 7300
+Wire Wire Line
+	7200 6250 6950 6250
+Wire Wire Line
+	6950 6250 6950 7550
+Wire Wire Line
+	6950 7550 6100 7550
+Wire Wire Line
+	6100 7550 6100 4650
+Wire Wire Line
+	8000 6150 8500 6150
+Wire Wire Line
+	8500 6150 8500 7600
+Wire Wire Line
+	8500 7600 6050 7600
+Wire Wire Line
+	6050 7600 6050 4550
+Wire Wire Line
+	8000 6250 8450 6250
+Wire Wire Line
+	8450 6250 8450 7650
+Wire Wire Line
+	8450 7650 6000 7650
+Wire Wire Line
+	6000 7650 6000 4450
+Wire Wire Line
+	7600 6550 7600 7700
+Wire Wire Line
+	7600 7700 5950 7700
+Wire Wire Line
+	5950 7700 5950 6250
+Wire Wire Line
+	7200 6150 6900 6150
+Wire Wire Line
+	6900 6150 6900 7750
+Wire Wire Line
+	6900 7750 5900 7750
+Wire Wire Line
+	5900 7750 5900 4350
+Wire Wire Line
+	8000 6350 8400 6350
+Wire Wire Line
+	8400 6350 8400 7800
+Wire Wire Line
+	8400 7800 5850 7800
+Wire Wire Line
+	5850 7800 5850 4250
+Wire Wire Line
+	7200 6350 7000 6350
+Wire Wire Line
+	7000 6350 7000 7850
+Wire Wire Line
+	7000 7850 5800 7850
+Wire Wire Line
+	5800 7850 5800 4150
+Wire Wire Line
+	7100 2950 6350 2950
+Wire Wire Line
+	6350 2950 6350 3000
+Wire Wire Line
+	6650 2500 6650 3000
+Connection ~ 6650 2950
+Wire Wire Line
+	6350 3300 6350 3400
+Wire Wire Line
+	6650 3300 6650 3400
+Connection ~ 6650 3400
+Wire Wire Line
+	7700 2950 8200 2950
+Wire Wire Line
+	7400 3250 7400 5250
+Wire Wire Line
+	8000 4000 7800 4000
+Wire Wire Line
+	7800 4000 7800 3650
+Wire Wire Line
+	7800 3650 9700 3650
+Wire Wire Line
+	9100 2500 6650 2500
+Wire Wire Line
+	8200 2300 6000 2300
+Wire Wire Line
+	6000 2300 6000 4050
+Wire Wire Line
+	5450 4050 6500 4050
+Wire Wire Line
+	5800 4150 6500 4150
+Connection ~ 5800 5450
+Wire Wire Line
+	5850 4250 6500 4250
+Connection ~ 5850 5700
+Wire Wire Line
+	5900 4350 6500 4350
+Connection ~ 5900 6000
+Wire Wire Line
+	6000 4450 6500 4450
+Connection ~ 6000 6550
+Wire Wire Line
+	6050 4550 6500 4550
+Connection ~ 6050 6800
+Wire Wire Line
+	6100 4650 6500 4650
+Connection ~ 6100 7050
+Wire Wire Line
+	5450 7300 5450 4050
+Connection ~ 6000 4050
+Connection ~ 6150 7300
+Wire Wire Line
+	5500 6250 5500 5250
+Connection ~ 7400 4900
+Connection ~ 5950 6250
+Wire Wire Line
+	9700 3650 9700 4250
+Connection ~ 9100 3650
+Wire Wire Line
+	9200 5250 9200 4550
+Connection ~ 7400 5250
+Wire Wire Line
+	9200 4250 8850 4250
+Wire Wire Line
+	8850 4250 8850 5700
+Wire Wire Line
+	8850 5700 7450 5700
+Wire Wire Line
+	7450 5700 7450 4100
+Wire Wire Line
+	7450 4100 8000 4100
+Wire Wire Line
+	9200 4350 8800 4350
+Wire Wire Line
+	8800 4350 8800 5650
+Wire Wire Line
+	8800 5650 7500 5650
+Wire Wire Line
+	7500 5650 7500 4200
+Wire Wire Line
+	7500 4200 8000 4200
+Wire Wire Line
+	9200 4450 8750 4450
+Wire Wire Line
+	8750 4450 8750 5600
+Wire Wire Line
+	8750 5600 7550 5600
+Wire Wire Line
+	7550 5600 7550 4300
+Wire Wire Line
+	7550 4300 8000 4300
+Wire Wire Line
+	9700 4550 9700 5550
+Wire Wire Line
+	9700 5550 7600 5550
+Wire Wire Line
+	7600 5550 7600 4400
+Wire Wire Line
+	7600 4400 8000 4400
+Wire Wire Line
+	9700 4450 9750 4450
+Wire Wire Line
+	9750 4450 9750 5500
+Wire Wire Line
+	9750 5500 7650 5500
+Wire Wire Line
+	7650 5500 7650 4500
+Wire Wire Line
+	7650 4500 8000 4500
+Wire Wire Line
+	9700 4350 9800 4350
+Wire Wire Line
+	9800 4350 9800 5450
+Wire Wire Line
+	9800 5450 7700 5450
+Wire Wire Line
+	7700 5450 7700 4600
+Wire Wire Line
+	7700 4600 8000 4600
+Wire Wire Line
+	6450 4950 6500 4950
+Wire Wire Line
+	7400 4900 8000 4900
+Wire Wire Line
+	8300 6100 8300 6650
+Wire Wire Line
+	8300 6650 7600 6650
+Connection ~ 7600 6650
+Wire Wire Line
+	8300 5800 8350 5800
+Connection ~ 8350 5800
+Connection ~ 8300 5800
+Wire Wire Line
+	9100 3650 9100 2500
+Wire Wire Line
+	5500 6250 6400 6250
+Wire Wire Line
+	5450 7300 6400 7300
+Wire Wire Line
+	6400 7050 6100 7050
+Wire Wire Line
+	6400 6800 6050 6800
+Wire Wire Line
+	6400 6550 6000 6550
+Wire Wire Line
+	6400 6000 5900 6000
+Wire Wire Line
+	6400 5700 5850 5700
+Wire Wire Line
+	6400 5450 5800 5450
+Connection ~ 6250 5250
+Wire Wire Line
+	5500 5250 9200 5250
+Wire Wire Line
+	6250 4950 6250 5150
+Wire Wire Line
+	6250 5150 7200 5150
+Wire Wire Line
+	7200 5150 7200 5800
+Connection ~ 7600 5800
+Connection ~ 6500 5150
+$EndSCHEMATC
